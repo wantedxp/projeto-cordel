@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Roboto+Condensed:wght@700&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+}
+
+p {
+    line-height: 1.6em;
+    font-family: 'Caveat', cursive;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    min-height: 200px;
+    text-align: center;
+}
+
+header>h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 3em;
+    padding: 40px 0px 0px 0px;
+}
+
+header>p {
+    padding: 5px 0px 0px 0px;
+}
+
+header>p>a {
+    text-decoration: none;
+    color: white;
+}
+
+main>.content>p {
+    padding: 90px 0px 0px 70px;
+}
+
+.content-2 {
+    background: url(/imagens/sky-water-nature-pier-dock-lake-sunset-reflection-morning-natural-landscape-cloud-evening-horizon-calm-dusk-sunrise-reservoir-lake-district-afterglow-boardwalk-tree-landsc.jpg);
+    background-repeat: no-repeat;
+    height: 400px;
+    max-width: 1000px;
+    background-size: cover;
+    background-position: center left;
+    margin: 40px 0px;
+}
+
+.content-2 {
+    padding: 20px 0px 0px 70px;
+    height: 500px;
+}
+
+.content-2>p {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.431);
+    width: 300px;
+    font-size: 2em;
+    border-radius: 5px;
+    position: relative;
+    top: 50px;
+}
+
+.content-3 {
+    padding: 0px 0px 0px 70px;
+}
+
+
+
+.content-4 {
+    background: url(/imagens/old-letters-436501_960_720.webp);
+    background-repeat: no-repeat;
+    height: 400px;
+    max-width: 1000px;
+    width: auto;
+    background-size: cover;
+    background-position: center center;
+    margin: 40px 0px;
+}
+
+.content-4>p {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.431);
+    width: 300px;
+    font-size: 2em;
+    border-radius: 5px;
+    position: relative;
+    top: 50px;
+}
+
+.content-4 {
+    padding: 35px 0px 0px 70px;
+    height: 500px;
+}
+
+.content-5 {
+    padding: 0px 0px 0px 70px;
+}
+
+.content-5>p {
+    padding: 0px 0px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin: 200px 0px 0px 0px;
+}
+
+footer>p {
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.4em;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
